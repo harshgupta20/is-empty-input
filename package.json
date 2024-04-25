@@ -1,0 +1,16 @@
+{
+  "name": "is-empty-input",
+  "version": "1.0.0",
+  "description": "A simple package to check if input is null, undefined, or an empty string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["validation", "empty", "null", "undefined"],
+  "author": "Harsh Gupta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshgupta20/is-empty-input.git"
+  }
+}
