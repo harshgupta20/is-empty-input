@@ -14,8 +14,24 @@ describe('isEmptyInput', () => {
     assert.strictEqual(isEmptyInput(''), true);
   });
 
+  it('should return true for empty array', () => {
+    assert.strictEqual(isEmptyInput([]), true);
+  });
+
+  it('should return true for empty object', () => {
+    assert.strictEqual(isEmptyInput({}), true);
+  });
+
   it('should return false for non-empty string', () => {
     assert.strictEqual(isEmptyInput('hello'), false);
+  });
+
+  it('should return false for non-empty array', () => {
+    assert.strictEqual(isEmptyInput([1, 2, 3]), false);
+  });
+
+  it('should return false for non-empty object', () => {
+    assert.strictEqual(isEmptyInput({ key: 'value' }), false);
   });
 
   it('should return false for numbers', () => {

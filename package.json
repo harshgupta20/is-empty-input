@@ -1,6 +1,6 @@
 {
   "name": "is-empty-input",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple package to check if input is null, undefined, or an empty string",
   "main": "index.js",
   "scripts": {
