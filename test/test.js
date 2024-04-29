@@ -14,6 +14,10 @@ describe('isEmptyInput', () => {
     assert.strictEqual(isEmptyInput(''), true);
   });
 
+  it('should return true for empty spaces', () => {
+    assert.strictEqual(isEmptyInput('      '), true);
+  });
+
   it('should return true for empty array', () => {
     assert.strictEqual(isEmptyInput([]), true);
   });

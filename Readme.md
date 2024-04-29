@@ -22,6 +22,7 @@ const isEmptyInput = require('is-empty-input');
 console.log(isEmptyInput(null)); // true
 console.log(isEmptyInput(undefined)); // true
 console.log(isEmptyInput('')); // true
+console.log(isEmptyInput('   ')); // true
 console.log(isEmptyInput([])); // true
 console.log(isEmptyInput({})); // true
 
