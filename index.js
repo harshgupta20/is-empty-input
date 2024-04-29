@@ -1,6 +1,6 @@
 function isEmptyInput(input) {
   // Check for null, undefined, or empty string
-  if (input === null || input === undefined || input === '') {
+  if (input === null || input === undefined || (typeof input === 'string' && input.trim() === '')) {
     return true;
   }
 
